@@ -4,6 +4,9 @@
     box-sizing: border-box;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: Tahoma;
 }
@@ -107,9 +110,31 @@ nav ul li:hover{
     overflow: hidden;
 
 }
-
-
-
+/*-------------Contact-------------*/
+#contact{
+    color: rgb(0, 195, 255);
+    background: rgb(61, 61, 61);
+}
+.contact-left{
+    flex-basis: 3%;
+}
+.contact-left p{
+    margin-top: 3%;
+}
+.contact-left p i{
+    color: aqua;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.social-icons{
+    margin-top: 10px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: aqua;
+}
 
 
 
