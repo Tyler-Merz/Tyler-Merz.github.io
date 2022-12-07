@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Tahoma;
+}
+nav{
+    font-size: 32px;
+    background: rgb(0, 0, 0);
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    cursor:pointer;
+    color: #fff;
+    transition: .4s;
+}
+nav ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+nav ul li:hover{
+    background: #fff;
+    color: #000;
+}
+
